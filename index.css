@@ -2,6 +2,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+header {
+    background-color: #FFF8F3;
+    ;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -35,8 +40,7 @@ nav .text-primary {
     color: #fff;
     outline: none;
     border: none;
-    padding: 8px;
-    width: 100px;
+    padding: 8px 18px;
     border-radius: 6px;
 }
 
@@ -48,4 +52,14 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #474747;
+}
+
+.banner {
+    padding: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 300px;
 }
